@@ -1,28 +1,47 @@
 # Salary Prediction App
 
-This is a machine learning project that predicts salary based on years of professional experience.
+This project predicts salary based on years of professional experience using a machine learning model.
 
-I trained a regression model using a salary dataset and then built a simple Streamlit app to let users enter their experience and get a salary prediction.
+I used a salary dataset, trained a Linear Regression model, and built a Streamlit app where users can enter their experience and get an estimated salary.
+
+## Model
+
+Linear Regression
+
+## Evaluation
+
+The model was evaluated using the test data.
+
+- MAE: 4,056.34
+- MSE: 23,745,684.25
+- RMSE: 4,872.95
+- R² Score: 0.9831
+
+## Dataset
+
+Salary Dataset provided for the Machine Learning assignment.
 
 ## What I used
 
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
+- Joblib
 - Streamlit
-- GitHub
 
 ## Files
 
 - `app.py` – Streamlit application
 - `salary_dataset.csv` – dataset used for the project
-- `salary_model.pkl` – trained machine learning model
+- `salary_model.pkl` – trained model
+- `Salary_Prediction_ML_ProjectMalaikaKhan.ipynb` – model training and evaluation
 - `requirements.txt` – required Python libraries
 - `.gitignore` – files excluded from Git
 
 ## How it works
 
-The user enters their years of experience and clicks **Predict Salary**. The trained model then gives an estimated salary.
+The user enters their years of professional experience and clicks **Predict Salary**. The app loads the trained model and gives an estimated salary.
 
 ## Live App
 
